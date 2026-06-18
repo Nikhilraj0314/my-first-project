@@ -1,0 +1,1 @@
+print(highest_salary)
