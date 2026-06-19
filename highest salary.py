@@ -18,6 +18,6 @@ for emp_id,info in employee.items():
     elif salary>highest_salary[dept]:
         highest_salary[dept]=salary
         highest_employee[dept]=name
-    print(highest_salary)
+print(highest_salary)
 for dept in highest_salary:
     print(f"(salary:{highest_salary[dept]})  {dept}:{highest_employee[dept]}")
